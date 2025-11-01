@@ -1,16 +1,16 @@
-package Logico;
+package Modelo;
 
 public class Ruta {
     private String idRuta;
     private String nombreRuta;
-    private float distanciaRuta;
+    private int distanciaRuta;
     private float costoRuta;
     private int cantidadTransbordo;
     private int tiempoViaje;
     private String origenRuta;
     private String destinoRuta;
 
-    public Ruta(String idRuta, String nombreRuta, float distanciaRuta, float costoRuta, int cantidadTransbordo, int tiempoViaje, String origenRuta, String destinoRuta) {
+    public Ruta(String idRuta, String nombreRuta, int distanciaRuta, float costoRuta, int cantidadTransbordo, int tiempoViaje, String origenRuta, String destinoRuta) {
         this.idRuta = idRuta;
         this.nombreRuta = nombreRuta;
         this.distanciaRuta = distanciaRuta;
@@ -37,11 +37,11 @@ public class Ruta {
         this.nombreRuta = nombreRuta;
     }
 
-    public float getDistanciaRuta() {
+    public int getDistanciaRuta() {
         return distanciaRuta;
     }
 
-    public void setDistanciaRuta(float distanciaRuta) {
+    public void setDistanciaRuta(int distanciaRuta) {
         this.distanciaRuta = distanciaRuta;
     }
 

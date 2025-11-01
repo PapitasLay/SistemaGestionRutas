@@ -1,4 +1,4 @@
-package Logico;
+package Modelo;
 
 public class Parada {
     private String idParada;
